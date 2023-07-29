@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div id="mainContainer">
+        <div id="singUpContainer">
+            <h6>Welcome back! 👋</h6>
+            <h2>Sign up to your account</h2>
+            <form action="" id="form">
+                <label for="name" id="nmae">Your name</label><br>
+                <input type="text" id="nameinput"><br><br>
+
+                <label for="email">Your email</label><br>
+                <input type="email" id="emailinput"><br><br>
+
+                <label for="password">Password</label><br>
+                <input type="password" id="passwordinput"><br><br>
+
+                <label for="confirmPassword">Confirm Password</label><br>
+                <input type="password" id="confirmPasswordinput"><br><br>
+
+                <button type="submit" id="submitbtn">CONTINUE</button>
+            </form>
+            <span id="alertmsg"></span>
+        </div>
+
+        <p id="asktext">Don’t have an account? <a href="#">Sign up</a></p>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+
+</html>
